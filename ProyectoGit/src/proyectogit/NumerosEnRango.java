@@ -24,7 +24,9 @@ public class NumerosEnRango {
         String salida = "";
         
         for (int i = inicio; i <= fin; i++) {
-            salida += i +" ";
+            if(i%2==0){
+                salida += i +" ";
+            }
         }
 
         return salida;

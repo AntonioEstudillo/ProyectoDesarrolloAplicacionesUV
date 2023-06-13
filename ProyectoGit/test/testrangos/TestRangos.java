@@ -17,7 +17,7 @@ public class TestRangos {
         
         int num1 = 5;
         int num2 = 10;
-        String expectedOutput = "6 7 8 9 ";
+        String expectedOutput = "6 8 ";
         
         
         String actualOutput = NumerosEnRango.imprimirNumerosEnRango(num1, num2);
